@@ -5,7 +5,7 @@ from django import forms
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 # from PRIPS_workflow import run_workflow
-from .MatrixCalculation import MultiplierCorrelationCalculator, MongoConnector
+from MatrixCalculation import MultiplierCorrelationCalculator, MongoConnector
 import json
 from pymongo import MongoClient
 
